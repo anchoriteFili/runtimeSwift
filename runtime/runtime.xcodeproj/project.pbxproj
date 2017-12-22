@@ -13,6 +13,13 @@
 		D6631AD11FECCE12001E7051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6631AD01FECCE12001E7051 /* Assets.xcassets */; };
 		D6631AD41FECCE12001E7051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6631AD21FECCE12001E7051 /* LaunchScreen.storyboard */; };
 		D6631AD71FECCE12001E7051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6631AD61FECCE12001E7051 /* main.m */; };
+		D6631B4F1FECE35C001E7051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6631B4E1FECE35C001E7051 /* AppDelegate.m */; };
+		D6631B521FECE35C001E7051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6631B511FECE35C001E7051 /* ViewController.m */; };
+		D6631B551FECE35C001E7051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6631B531FECE35C001E7051 /* Main.storyboard */; };
+		D6631B571FECE35C001E7051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6631B561FECE35C001E7051 /* Assets.xcassets */; };
+		D6631B5A1FECE35C001E7051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6631B581FECE35C001E7051 /* LaunchScreen.storyboard */; };
+		D6631B5D1FECE35C001E7051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6631B5C1FECE35C001E7051 /* main.m */; };
+		D6631B631FECE396001E7051 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D6631B621FECE396001E7051 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,16 +33,29 @@
 		D6631AD31FECCE12001E7051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6631AD51FECCE12001E7051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6631AD61FECCE12001E7051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6631B261FECD72D001E7051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6631B281FECD72D001E7051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6631B2B1FECD72D001E7051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6631B2D1FECD72D001E7051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6631B301FECD72D001E7051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6631B321FECD72D001E7051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6631B4B1FECE35C001E7051 /* Messaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6631B4D1FECE35C001E7051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6631B4E1FECE35C001E7051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6631B501FECE35C001E7051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6631B511FECE35C001E7051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6631B541FECE35C001E7051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6631B561FECE35C001E7051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6631B591FECE35C001E7051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6631B5B1FECE35C001E7051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6631B5C1FECE35C001E7051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6631B611FECE396001E7051 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		D6631B621FECE396001E7051 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D6631AC11FECCE12001E7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6631B481FECE35C001E7051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,8 +68,8 @@
 		D6631ABB1FECCE12001E7051 = {
 			isa = PBXGroup;
 			children = (
+				D6631B4C1FECE35C001E7051 /* Messaging */,
 				D6631AC61FECCE12001E7051 /* runtime */,
-				D6631B251FECD72D001E7051 /* runtimeSwift */,
 				D6631AC51FECCE12001E7051 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D6631AC41FECCE12001E7051 /* runtime.app */,
+				D6631B4B1FECE35C001E7051 /* Messaging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,17 +99,22 @@
 			path = runtime;
 			sourceTree = "<group>";
 		};
-		D6631B251FECD72D001E7051 /* runtimeSwift */ = {
+		D6631B4C1FECE35C001E7051 /* Messaging */ = {
 			isa = PBXGroup;
 			children = (
-				D6631B261FECD72D001E7051 /* AppDelegate.swift */,
-				D6631B281FECD72D001E7051 /* ViewController.swift */,
-				D6631B2A1FECD72D001E7051 /* Main.storyboard */,
-				D6631B2D1FECD72D001E7051 /* Assets.xcassets */,
-				D6631B2F1FECD72D001E7051 /* LaunchScreen.storyboard */,
-				D6631B321FECD72D001E7051 /* Info.plist */,
+				D6631B4D1FECE35C001E7051 /* AppDelegate.h */,
+				D6631B4E1FECE35C001E7051 /* AppDelegate.m */,
+				D6631B501FECE35C001E7051 /* ViewController.h */,
+				D6631B511FECE35C001E7051 /* ViewController.m */,
+				D6631B611FECE396001E7051 /* Cat.h */,
+				D6631B621FECE396001E7051 /* Cat.m */,
+				D6631B531FECE35C001E7051 /* Main.storyboard */,
+				D6631B561FECE35C001E7051 /* Assets.xcassets */,
+				D6631B581FECE35C001E7051 /* LaunchScreen.storyboard */,
+				D6631B5B1FECE35C001E7051 /* Info.plist */,
+				D6631B5C1FECE35C001E7051 /* main.m */,
 			);
-			path = runtimeSwift;
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +137,23 @@
 			productReference = D6631AC41FECCE12001E7051 /* runtime.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D6631B4A1FECE35C001E7051 /* Messaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6631B5E1FECE35C001E7051 /* Build configuration list for PBXNativeTarget "Messaging" */;
+			buildPhases = (
+				D6631B471FECE35C001E7051 /* Sources */,
+				D6631B481FECE35C001E7051 /* Frameworks */,
+				D6631B491FECE35C001E7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Messaging;
+			productName = Messaging;
+			productReference = D6631B4B1FECE35C001E7051 /* Messaging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +165,10 @@
 				ORGANIZATIONNAME = "赵宏亚";
 				TargetAttributes = {
 					D6631AC31FECCE12001E7051 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D6631B4A1FECE35C001E7051 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -141,6 +188,7 @@
 			projectRoot = "";
 			targets = (
 				D6631AC31FECCE12001E7051 /* runtime */,
+				D6631B4A1FECE35C001E7051 /* Messaging */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +204,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6631B491FECE35C001E7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6631B5A1FECE35C001E7051 /* LaunchScreen.storyboard in Resources */,
+				D6631B571FECE35C001E7051 /* Assets.xcassets in Resources */,
+				D6631B551FECE35C001E7051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -166,6 +224,17 @@
 				D6631ACC1FECCE12001E7051 /* ViewController.m in Sources */,
 				D6631AD71FECCE12001E7051 /* main.m in Sources */,
 				D6631AC91FECCE12001E7051 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6631B471FECE35C001E7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6631B631FECE396001E7051 /* Cat.m in Sources */,
+				D6631B521FECE35C001E7051 /* ViewController.m in Sources */,
+				D6631B5D1FECE35C001E7051 /* main.m in Sources */,
+				D6631B4F1FECE35C001E7051 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,18 +257,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D6631B2A1FECD72D001E7051 /* Main.storyboard */ = {
+		D6631B531FECE35C001E7051 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6631B2B1FECD72D001E7051 /* Base */,
+				D6631B541FECE35C001E7051 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D6631B2F1FECD72D001E7051 /* LaunchScreen.storyboard */ = {
+		D6631B581FECE35C001E7051 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6631B301FECD72D001E7051 /* Base */,
+				D6631B591FECE35C001E7051 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.runtime;
@@ -331,9 +401,40 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.runtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6631B5F1FECE35C001E7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = Messaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.Messaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6631B601FECE35C001E7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = Messaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.Messaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,6 +457,15 @@
 			buildConfigurations = (
 				D6631AF11FECCE12001E7051 /* Debug */,
 				D6631AF21FECCE12001E7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6631B5E1FECE35C001E7051 /* Build configuration list for PBXNativeTarget "Messaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6631B5F1FECE35C001E7051 /* Debug */,
+				D6631B601FECE35C001E7051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

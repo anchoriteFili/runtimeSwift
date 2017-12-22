@@ -17,13 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+
     
-    // 可以用定义的宏进行判断了
-    #if RUNTIMEOC
-    NSLog(@"OC环境");
-    #else
-    NSLog(@"不是OC环境");
-    #endif
+    
     
     
     
